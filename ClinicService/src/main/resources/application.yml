@@ -1,0 +1,10 @@
+server:
+  port: 8094
+  servlet:
+    context-path: /clinic
+    
+spring:
+  application:
+    name: clinic-service
+  profiles:
+    active: local

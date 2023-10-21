@@ -1,0 +1,68 @@
+2022-08-04 17:30:58,396 INFO  [restartedMain] com.pratian.doctorservice.DoctorServiceApplication : Starting DoctorServiceApplication using Java 18.0.1.1 on LAPTOP-IFO89F91 with PID 25852 (E:\CMD PROJECT\CMD Codebase\DoctorService\target\classes started by nisha in E:\CMD PROJECT\CMD Codebase\DoctorService)
+2022-08-04 17:30:58,401 INFO  [restartedMain] com.pratian.doctorservice.DoctorServiceApplication : The following profiles are active: local
+2022-08-04 17:30:58,443 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-04 17:30:58,443 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-04 17:30:59,067 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-04 17:30:59,180 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2022-08-04 17:30:59,393 INFO  [restartedMain] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=dd5eacb4-5964-3af4-a022-8646343d8c3a
+2022-08-04 17:30:59,835 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8069 (https)
+2022-08-04 17:30:59,843 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2022-08-04 17:30:59,844 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-08-04 17:30:59,952 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/doctor] : Initializing Spring embedded WebApplicationContext
+2022-08-04 17:30:59,952 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1508 ms
+2022-08-04 17:31:00,100 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-04 17:31:00,137 INFO  [restartedMain] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.28.Final
+2022-08-04 17:31:00,243 INFO  [restartedMain] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-04 17:31:00,318 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2022-08-04 17:31:00,559 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2022-08-04 17:31:00,586 INFO  [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-08-04 17:31:01,238 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-04 17:31:01,244 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 17:31:01,280 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2022-08-04 17:31:01,707 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-04 17:31:01,761 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-04 17:31:02,559 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-08-04 17:31:02,682 WARN  [restartedMain] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-04 17:31:02,753 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2022-08-04 17:31:02,783 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2022-08-04 17:31:02,787 INFO  [restartedMain] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 17:31:02,802 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2022-08-04 17:31:02,803 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2022-08-04 17:31:02,803 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2022-08-04 17:31:02,803 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Application is null : false
+2022-08-04 17:31:02,803 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2022-08-04 17:31:02,803 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2022-08-04 17:31:02,803 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2022-08-04 17:31:02,988 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : The response status is 200
+2022-08-04 17:31:02,991 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2022-08-04 17:31:02,993 INFO  [restartedMain] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-04 17:31:02,997 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1659614462996 with initial instances count: 2
+2022-08-04 17:31:02,999 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application DOCTOR-SERVICE with eureka with status UP
+2022-08-04 17:31:02,999 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1659614462999, current=UP, previous=STARTING]
+2022-08-04 17:31:03,001 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_DOCTOR-SERVICE/172.30.12.21:doctor-service:8069: registering service...
+2022-08-04 17:31:03,033 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_DOCTOR-SERVICE/172.30.12.21:doctor-service:8069 - registration status: 204
+2022-08-04 17:31:03,219 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8069 (https) with context path '/doctor'
+2022-08-04 17:31:03,219 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8069
+2022-08-04 17:31:03,303 INFO  [restartedMain] com.pratian.doctorservice.DoctorServiceApplication : Started DoctorServiceApplication in 5.546 seconds (JVM running for 6.178)
+2022-08-04 17:36:11,138 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m40s506ms190µs200ns).
+2022-08-04 17:39:13,272 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 17:44:13,282 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 17:49:13,287 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 17:54:13,289 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 17:59:13,297 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 18:04:13,301 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 18:09:13,305 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 18:14:13,321 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 18:19:13,333 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 18:24:13,342 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2022-08-04 18:28:47,712 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m5s830ms473µs).
+2022-08-04 18:30:12,910 INFO  [RMI TCP Connection(59)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-04 18:30:12,937 INFO  [RMI TCP Connection(59)-127.0.0.1] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application DOCTOR-SERVICE with eureka with status DOWN
+2022-08-04 18:30:12,938 INFO  [RMI TCP Connection(59)-127.0.0.1] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1659618012938, current=DOWN, previous=UP]
+2022-08-04 18:30:12,938 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_DOCTOR-SERVICE/172.30.12.21:doctor-service:8069: registering service...
+2022-08-04 18:30:12,955 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_DOCTOR-SERVICE/172.30.12.21:doctor-service:8069 - registration status: 204
+2022-08-04 18:30:13,099 INFO  [RMI TCP Connection(59)-127.0.0.1] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-04 18:30:13,102 INFO  [RMI TCP Connection(59)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-04 18:30:13,132 INFO  [RMI TCP Connection(59)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2022-08-04 18:30:13,140 INFO  [RMI TCP Connection(59)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2022-08-04 18:30:13,141 INFO  [RMI TCP Connection(59)-127.0.0.1] com.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
